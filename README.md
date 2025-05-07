@@ -1,5 +1,7 @@
 To create:
-> gcc -std=c11 -Wall -pedantic grep.c -o Jrep
+
+> g++ -std=c++11 -Wall -pedantic grep.cpp -o Jrep
+
 
 To run/use:
 > ./Jrep [word] [file]
