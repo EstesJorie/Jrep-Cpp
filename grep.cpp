@@ -2,6 +2,7 @@
 #include <fstream>
 #include <regex>
 #include <string>
+#include <iomanip>
 
 void printHighlighted(const std::string& line, const std::smatch& match) {
     std::cout << line.substr(0, match.position());
